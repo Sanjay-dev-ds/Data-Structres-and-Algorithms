@@ -2,10 +2,6 @@ import re
 import unittest
 
 
-
-
-
-
 def getString_removeNumeric(myString):
     number=re.findall('[0-9]',myString);
     if number:
