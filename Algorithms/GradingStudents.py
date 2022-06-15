@@ -19,7 +19,8 @@ def gradingStudents(grades):
                  grades[i]  = 5 * round(grades[i]/5)
     return grades
      
-
+    
+    
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
     grades_count = int(input().strip())
