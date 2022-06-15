@@ -7,9 +7,7 @@ def diagonalDifference(arr):
       r_sum=r_sum+arr[i][(len(arr)-1)-i]
     
     return abs(l_sum - r_sum)
-    
-    
-    
+   
     
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
