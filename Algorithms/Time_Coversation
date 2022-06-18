@@ -18,6 +18,7 @@ def timeConversion(s):
       if s[:2] == '12':
           s = str('00' + s[2:8])
       else:
+        
           s = s[:-2]
     else:
       if s[:2] == '12':
